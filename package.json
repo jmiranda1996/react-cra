@@ -1,0 +1,39 @@
+{
+  "name": "react-cra",
+  "version": "1.0.0",
+  "description": "CRA para proyectos react",
+  "main": "index.js",
+  "bin": "bin/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --host 127.0.0.1 --port 3000 --mode=development --open --hot",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [
+    "cli",
+    "react-app-init"
+  ],
+  "author": "Jerson Miranda",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "fs-extra": "^9.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.0.5",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
