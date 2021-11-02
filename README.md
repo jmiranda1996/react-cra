@@ -1,4 +1,4 @@
-### REACT CRA
+# REACT CRA
 
 This is a custom CLI for initializate a react app.
 
