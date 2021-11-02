@@ -44,7 +44,7 @@ exec(
       fs.writeFile(packageJSON, data, (err2) => err2 || true);
     });
 
-    const filesToCopy = ["webpack.config.js",".babelrc"];
+    const filesToCopy = ["webpack.config.js",".babelrc","tsconfig.json"];
 
     for (let i = 0; i < filesToCopy.length; i += 1) {
       fs.createReadStream(path.join(__dirname, `../${filesToCopy[i]}`)).pipe(
