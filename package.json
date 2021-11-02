@@ -1,6 +1,6 @@
 {
   "name": "@jmiranda1996/react-cra",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "CRA para proyectos react",
   "main": "index.js",
   "bin": "bin/start.js",
