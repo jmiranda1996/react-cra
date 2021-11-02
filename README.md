@@ -25,4 +25,4 @@ react-cra my-app
 cd my-app && npm start
 ```
 
-### Enjoy :smile:!
+### Enjoy it :smile:!
