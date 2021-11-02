@@ -15,6 +15,10 @@
   ],
   "author": "Jerson Miranda",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmiranda1996/react-cra"
+  },
   "dependencies": {
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
